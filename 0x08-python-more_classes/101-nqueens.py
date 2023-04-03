@@ -13,8 +13,6 @@ def isSafe(board, row, col):
         if board[c] is row or abs(board[c] - row) is abs(c - col):
             return False
     return True
-
-
 def checkBoard(board, col):
     '''Checks the board state column by column using backtracking.
     Args:
