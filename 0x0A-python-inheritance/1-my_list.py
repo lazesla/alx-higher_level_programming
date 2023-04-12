@@ -1,16 +1,8 @@
 #!/usr/bin/python3
-"""
-===========================
-Module with class MyList
-===========================
-"""
+"""lookup module"""
 
 
-class MyList(list):
-    """Class with method print_sorted"""
-    pass
-
-    def print_sorted(self):
-        """Methot that sorted a list"""
-
-        print(sorted(list(self)))
+def lookup(obj):
+    """lookup method
+    Returns: a list of available attributes and methods of an object"""
+    return dir(obj)
