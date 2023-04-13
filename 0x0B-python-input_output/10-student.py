@@ -17,7 +17,7 @@ class Student:
         if type(attrs) is list:
 
             for item in attrs:
-                if type(item) is not str:
+                if type(item) is not attrs:
                     return obj
 
             d_list = {}
