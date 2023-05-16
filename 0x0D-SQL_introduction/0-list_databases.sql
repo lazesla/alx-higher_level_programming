@@ -1,2 +1,3 @@
-## code to display list of databases##
+#display list of databases#
 SHOW DATABASES;
+
